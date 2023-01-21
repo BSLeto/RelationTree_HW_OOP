@@ -1,3 +1,4 @@
+import OOP_Homework.Lesson01.Gender;
 public class Person {
     /**Класс описывает Человека */
     private String fName;

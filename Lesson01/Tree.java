@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.List;
+
 
 public class Tree {
     private List<Link> links = new ArrayList<>();
@@ -11,9 +13,9 @@ public class Tree {
         this.links.addAll(links);
     }
 
-    public void addLink(Person p1, Person p2, Relations r2) {
+    public void addLink(Person p1, Person p2, Relations r1, Relations r2) {
         this.links.add(new Link(p1, p2, r1));
-        this.links.add(new Link(p2, p3, r2));
+        this.links.add(new Link(p2, p2, r2));
     }
 
     @Override

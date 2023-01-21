@@ -21,5 +21,7 @@ public enum Relations {
     Grandson,
     Granddaughter,
     Husband,
-    Wife
+    Wife,
+    ExHusband,
+    ExWife
 }
